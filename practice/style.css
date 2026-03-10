@@ -31,3 +31,16 @@ p {
     margin: auto;
     border-radius: 10px;
 }
+
+button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #4c6ef5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b5bdb;
+}
