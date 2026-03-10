@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    margin: 40px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.input-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 16px;
+    border: none;
+    background-color: #4c6ef5;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer
+}
+
+button.hover {
+    background-color: #3b5bdb;
+}
+
+li {
+    margin-bottom: 10px;
+}
